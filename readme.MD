@@ -57,6 +57,22 @@ source ollama_chat/bin/activate
 
         - Install the libraries using requirements.txt file
         
-        - Run the code using the below commans
+        - Run the code using the below command
 
             streamlit run ats.py
+
+- Chat Application
+
+        - Create a conda venv using python 3.10 version
+
+            conda create -n chat_env python=3.10
+
+        - Activate the environment
+
+            conda activate chat_env
+
+        - Install the libraries using requirements.txt file
+        
+        - Run the code using the below command
+
+            streamlit run chat.py
