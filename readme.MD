@@ -1,50 +1,38 @@
+# Deep dive into NLP, LLMs and Gen AI Applications
 
+### This repository contains all the resources required to get started and build NLP applicxations, understand LLMs, build end to end solutions using  open source LLMs and Gemini models
 
-VERTEXAI_AGENT
+## Running the OLLAMA Application
 
--- conda create -n agent_env python=3.10
--- conda activate agent_env
--- python3 app.py
+-- Make sure Ollama is installed locally in the system
 
-<!-- VERTEXAI_PALM CHAT
+-- Go to the terminal and run the command "ollama"
 
--- conda create -n palm_env python=3.10
--- conda activate palm_env
--- conda deactivate -->
+-- To use any of the open source models, run the below command
 
-<!-- conda create -n palm_model_env python=3.11
-conda activate palm_model_env -->
+```
+ollama pull <model_name>
+ollama pull llama3
 
-OLLAMA AGENT
+```
+-- cd into the Ollama-LLM/Ollama_Chat folder
 
-    ollama pull llama3
+-- Install the required libraries using requirements file
 
-    python3 -m venv ollama_chat
-    source ollama_chat/bin/activate
+```
+python3 -m venv ollama_chat
+```
+-- Activate the virtual environment using the following command in the terminal
 
-    
-image_app
-activate env - conda activate venv/
-file run - streamlit run app.py
+```
+source ollama_chat/bin/activate
+```
+-- Run the **hello.py** file to simply display "hello world" 
+-- Run the **convo.py** file to chat with ollama
+-- Run the **user.py** file to use prompt template based on user input
 
-invoice app
-activate env - conda activate inv_env/
-file run - streamlit run inv.py
+## Running the Vertex AI Application
 
-video app
-activate env - conda activate vid_env/
-file run - streamlit run vid.py
+-- Create an Agent Builder and Dialogflow application using a sample file (RAG approach)
 
-Videos
-
-https://www.youtube.com/watch?v=fjHtjT7GO1c
-https://www.youtube.com/watch?v=cNfINi5CNbY&t=1s
-https://www.youtube.com/watch?v=hfIUstzHs9A
-https://www.youtube.com/watch?v=bBejGuf6hy8
-
-conda create -n ats_env python=3.10
-conda activate ats_env
-streamlit run ats.py
-
-
-
+-- 
