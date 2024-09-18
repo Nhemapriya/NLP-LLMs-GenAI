@@ -1,0 +1,7 @@
+.env
+/Gemini Apps/invoice_app/inv_env
+/Gemini Apps/image_app/venv
+/Gemini Apps/video_app/vid_env
+/Gemini Apps/invoice_app/Test Data
+/Ollama-LLM/Ollama_Chat/Ollama_Chat
+/VertexAI_Agent/data
